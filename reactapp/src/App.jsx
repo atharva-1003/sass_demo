@@ -8,6 +8,10 @@ function App() {
 
   return (
     <>
+      <div className="greeting-container">
+        <h1 className="greeting-title">Hello, User! 👋</h1>
+        <p className="greeting-subtitle">Welcome to our beautiful React app.</p>
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
