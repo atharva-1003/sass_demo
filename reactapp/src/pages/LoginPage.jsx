@@ -18,7 +18,7 @@ export default function LoginPage() {
         <h1>Library Portal</h1>
         <nav>
           <Link to="/">Home</Link>
-          <a href="#catalog">Catalog</a>
+          <Link to="/books">Books</Link>
           <a href="#about">About</a>
           <Link to="/contact">Contact</Link>
           <Link to="/login" className="active">Login</Link>

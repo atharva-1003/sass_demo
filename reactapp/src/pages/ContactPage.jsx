@@ -8,7 +8,7 @@ export default function ContactPage() {
         <h1>Library Portal</h1>
         <nav>
           <Link to="/">Home</Link>
-          <a href="#details">Details</a>
+          <Link to="/books">Books</Link>
           <a href="#hours">Hours</a>
           <Link to="/contact">Contact</Link>
           <Link to="/login">Login</Link>

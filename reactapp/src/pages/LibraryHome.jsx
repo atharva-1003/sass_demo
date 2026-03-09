@@ -8,7 +8,7 @@ export default function LibraryHome() {
         <h1>Library Portal</h1>
         <nav>
           <a href="#home">Home</a>
-          <a href="#catalog">Catalog</a>
+          <Link to="/books">Books</Link>
           <a href="#about">About</a>
           <Link to="/contact">Contact</Link>
           <Link to="/login">Login</Link>
