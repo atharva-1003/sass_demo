@@ -11,6 +11,7 @@ export default function ContactPage() {
           <a href="#details">Details</a>
           <a href="#hours">Hours</a>
           <Link to="/contact">Contact</Link>
+          <Link to="/login">Login</Link>
         </nav>
       </header>
 

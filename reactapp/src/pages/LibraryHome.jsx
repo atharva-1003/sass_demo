@@ -11,6 +11,7 @@ export default function LibraryHome() {
           <a href="#catalog">Catalog</a>
           <a href="#about">About</a>
           <Link to="/contact">Contact</Link>
+          <Link to="/login">Login</Link>
         </nav>
       </header>
       <main className="library-main">
