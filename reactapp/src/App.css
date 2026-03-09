@@ -1,43 +1,156 @@
-/* Greeting styles for SCRUM-11 */
-.greeting-container {
-  margin: 2em auto 2em auto;
-  padding: 2em 1em;
-  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
-  border-radius: 24px;
-  box-shadow: 0 4px 24px rgba(161, 140, 209, 0.2);
-  max-width: 500px;
+/* LibraryX Modern Styles */
+
+.library-app {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #f7f7fa;
+  color: #22223b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.greeting-title {
-  font-size: 2.5em;
-  font-weight: 700;
-  color: #4b006e;
-  margin-bottom: 0.3em;
-  letter-spacing: 1px;
+.library-header {
+  background: linear-gradient(90deg, #4b006e 0%, #a18cd1 100%);
+  color: #fff;
+  padding-bottom: 2em;
 }
 
-.greeting-subtitle {
-  font-size: 1.3em;
-  color: #6d2e85;
+.library-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em 1em 2em;
+}
+.library-logo {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.library-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
   margin: 0;
+  padding: 0;
 }
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.library-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.library-nav a:hover {
+  color: #fbc2eb;
+}
+
+.library-hero {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.library-hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.library-hero p {
+  font-size: 1.3em;
+  margin-bottom: 1.5em;
+}
+.hero-btn {
+  background: #fbc2eb;
+  color: #4b006e;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 24px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.hero-btn:hover {
+  background: #a18cd1;
+  color: #fff;
+}
+
+main {
+  flex: 1;
+  padding: 2em 0 0 0;
+}
+
+.book-showcase {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(161, 140, 209, 0.08);
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 2em 1.5em;
   text-align: center;
 }
+.book-showcase h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+.book-card {
+  background: #f7f7fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(161, 140, 209, 0.08);
+  padding: 1em;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.book-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(161, 140, 209, 0.18);
+}
+.book-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.7em;
+}
+.book-card h3 {
+  font-size: 1.1em;
+  margin: 0.5em 0 0.2em 0;
+}
+.book-card p {
+  color: #6d2e85;
+  font-size: 0.95em;
+  margin: 0;
+}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.about-section, .contact-section {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(161, 140, 209, 0.08);
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 2em 1.5em;
+  text-align: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.about-section h2, .contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 0.7em;
 }
-.logo.react:hover {
+
+.library-footer {
+  background: #4b006e;
+  color: #fff;
+  text-align: center;
+  padding: 1.2em 0 1em 0;
+  font-size: 1em;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-top: 2em;
+}
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
