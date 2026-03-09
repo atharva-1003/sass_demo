@@ -1,4 +1,5 @@
 import './LibraryHome.css';
+import { Link } from 'react-router-dom';
 
 export default function LibraryHome() {
   return (
@@ -9,7 +10,7 @@ export default function LibraryHome() {
           <a href="#home">Home</a>
           <a href="#catalog">Catalog</a>
           <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </nav>
       </header>
       <main className="library-main">
