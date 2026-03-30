@@ -3,6 +3,7 @@ import ContactPage from './pages/ContactPage';
 import LibraryHome from './pages/LibraryHome';
 import LoginPage from './pages/LoginPage';
 import BooksPage from './pages/BooksPage';
+import VRPage from './pages/VRPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/books" element={<BooksPage />} />
+        <Route path="/vr" element={<VRPage />} />
       </Routes>
     </BrowserRouter>
   );

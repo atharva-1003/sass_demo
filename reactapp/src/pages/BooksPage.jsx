@@ -92,6 +92,7 @@ export default function BooksPage() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/books" className="active">Books</Link>
+          <Link to="/vr">VR</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/login">Login</Link>
         </nav>

@@ -19,6 +19,7 @@ export default function LoginPage() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/books">Books</Link>
+          <Link to="/vr">VR</Link>
           <a href="#about">About</a>
           <Link to="/contact">Contact</Link>
           <Link to="/login" className="active">Login</Link>

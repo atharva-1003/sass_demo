@@ -9,6 +9,7 @@ export default function LibraryHome() {
         <nav>
           <a href="#home">Home</a>
           <Link to="/books">Books</Link>
+          <Link to="/vr">VR</Link>
           <a href="#about">About</a>
           <Link to="/contact">Contact</Link>
           <Link to="/login">Login</Link>
